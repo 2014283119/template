@@ -8,5 +8,4 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserDao {
     private final static Logger logger = LoggerFactory.getLogger(UserDao.class);
-
 }

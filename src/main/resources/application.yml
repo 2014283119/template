@@ -4,15 +4,15 @@
 spring:
   datasource:
     db1:
-      jdbc-url: jdbc:mysql://60.188.56.56:3307/db341?serverTimezone=Asia/Shanghai
+      jdbc-url: jdbc:mysql://xxx:3307/db341?serverTimezone=Asia/Shanghai
       username: root
       password: 123456
       driver-class-name: com.mysql.cj.jdbc.Driver
 
     db2:
-      jdbc-url: jdbc:sqlserver://10.100.100.52:1433;database=ALARM_CENTER
-      username: zjt
-      password: zjt123
+      jdbc-url: jdbc:sqlserver://xxx:1433;database=ALARM_CENTER
+      username: username
+      password: password
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
 server:
